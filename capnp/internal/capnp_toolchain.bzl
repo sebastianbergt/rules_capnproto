@@ -1,4 +1,5 @@
-DEFAULT_CAPNP_TOOL = "@capnproto//:capnp_tool"
+DEFAULT_CAPNP_TOOL = "@capnp-cpp//src/capnp:capnp_tool"
+
 
 CapnpToolchainInfo = provider(fields = {
     "capnp_tool": "capnp_tool compiler target",
